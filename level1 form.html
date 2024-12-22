@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>level1 form</title>
+<style>
+
+body {
+  font-family:serif;
+font-size: 24px;
+  margin:27;
+  padding:15;
+  line-height: 1.6;
+  color: white;
+  background-image: url('shutterstock_564030760-1024x681.jpg');
+  background-color: pink;
+  background-size: cover;
+     }
+.navbar ul {
+  list-style-type: none;
+  margin: 02;
+  padding: 03;
+  overflow: hidden;
+  
+}
+
+
+.navbar li a {
+  display: block;
+  padding: 15px;
+  background-color: none;
+   text-align: center;
+             }
+.navbar li a:hover {
+  background-color: #555;
+  color: white;
+}
+ul {
+  list-style: none;
+  padding: 5;
+   }
+
+a {
+  text-decoration: none;
+  color: azure;
+   }
+
+button {
+  cursor: pointer;
+       }
+
+
+
+
+</style>
+
+</head>
+<body>
+<div id="mydiv">
+<nav class='navbar'>
+<ul>
+<li><a href="">Home</a></li>
+<li><a href="">About</a></li>
+<li><a href="">Staff</a></li>
+<li><a href="">Service </a></li>
+<li><a href="course.html">Courses</a></li>
+</ul>
+</nav>
+
+
+<form name="level1" >
+<label for="fname"> First Name : </lable><br> <input type="text" id="fname" name="fname"><br><br>
+<label for="lname"> Last Name : </lable><br> <input type="text" id="lname" name="lname"><br><br>
+<label for="fname"> Address : </lable><br> <textarea  rows="3" cols="45"></textarea> <br><br>
+<label for="fname"> DOB : </lable> <br><input type="date" id="date" name="date"><br><br>
+<label for="fname"> Contact number : </lable> <br><input type="text" id="number" name="number"><br><br>
+<label for="fname"> Level : <br></lable> <select id="level" name="level">
+<option value="level 1 (beginners)">level 1 (beginners)</option>
+<option value="level 2">level 2</option>
+<option value="level 3">level 3</option>
+</select>
+<br><br>
+<input type="submit">
+<button type="clear">clear</button>
+</form>
+</div>
+</body>
+</html>
